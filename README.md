@@ -81,13 +81,12 @@ Tools: pgAdmin
 
 Project Structure
 
-    ev-battery-monitoring/
-    ├── app.py
-    ├── schema.sql
-    ├── triggers.sql
-    ├── requirements.txt
-    └── README.md
-
+   EV_BATTERY_PROJECT2/
+├── backend/          # Python backend and ML degradation model
+├── dashboard/        # Streamlit dashboard
+├── sql/              # Schema, triggers, partitioning, RBAC/RLS scripts
+├── requirements.txt
+└── README.md
 ---
 
 Future Scope
